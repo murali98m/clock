@@ -1,0 +1,321 @@
+.grid
+{
+    margin-left: 10%;
+    margin-top: 1%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns:1fr 2fr ;
+    grid-row-gap:15px ;
+    grid-column-gap: 10px;
+    
+}
+.t1
+{
+    width: 100px;
+    height: 100px;
+    border:5px red solid;
+    float: left;
+    margin-left: 5%;
+    justify-items: center;
+    font-size: 100%;
+
+}
+.con1
+{
+    width: 300px; 
+    height:100px; 
+    border:5px white none;
+    background-color: rgb(11, 11, 99);
+}
+.con
+{
+    width: 400px;
+    height:70px; 
+    border:5px white solid;
+    border-radius: 5px;
+    background-color: white;
+   
+} 
+
+.con3
+{
+    width: 700px;
+    height:400px; 
+    display: grid;
+    background-color: white;
+    position: relative;
+    
+}
+.con4
+{
+    width: 500px;
+    height:400px; 
+    border:5px white solid;
+    border-radius: 5px;
+    background-image: url(./image/balloon1.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    margin-top: -59%;
+}
+.set
+{
+    border:5px white solid;
+    position: relative;
+}
+#div1
+{   
+    background-image: url(./image/wake_up.png);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; 
+    
+}
+#photo1
+{
+    background-image: url(./image/lunch_time.png);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;    
+}
+#photo2
+{
+    background-image: url(./image/nap_time.png);
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; 
+}
+#div2
+{
+    display: inline-block;
+    padding: 50px;
+    position: absolute;
+    
+}
+#wakeUpTimeSelector
+{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px rgb(210, 141, 241) solid;
+    padding-left: 20%;
+}
+#lunchTimeSelector
+{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px rgb(210, 141, 241) solid;
+    padding-left: 20%;
+}
+#napTimeSelector
+{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px rgb(210, 141, 241) solid;
+    padding-left: 20%;
+}
+#box1
+{
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top: 55px;
+    left: 60%;
+    margin: auto;
+    opacity: 0.71;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: rgb(223, 214, 206);
+}
+#box2
+{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 62%;
+    margin: auto;
+    opacity: 0.50;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: rgb(207, 192, 201);
+}
+.con5
+{
+    width: 510px;
+    height:50px; 
+    border:5px rgba(88, 7, 11, 0.87) none;
+    border-radius: 5px;
+    background-color: white;
+    
+    
+}
+.cl1
+{
+width: 10%;
+height: 80%;
+float: left;
+display: flex;
+color: #3D087B;
+margin-top: 18px;
+}
+.cl2
+{
+width: 15%;
+height: 80%;
+float: left;
+display: flex;
+color: #8A11BF;
+background-color: #F6E2FF;
+border: 5px  none;
+text-align: center;
+justify-content: center;
+margin-left: 10px;
+/* margin-top: 0px; */
+align-items: center;
+font-size: 20px; 
+border-radius: 3px;
+}
+p{
+   color: #8A11BF;
+   text-align: center;
+   align-items: center;
+   margin-top: 60px;
+   /* margin-left: -40px; */
+   position: relative;
+} 
+span
+{
+     
+    align-items: center;
+    position: absolute;
+}
+.cl3
+{
+width: 5%;
+height: 80%;
+float: left;
+display: flex;
+color: #8A11BF;
+justify-content: center;
+margin-left: 0px;
+align-items: center;
+}
+#pm
+{
+    background-image: url(./image/AM_svg.png);
+    color: white;
+}
+.hr1
+{
+    border-left: 2px black solid;
+    height: 60px;
+    margin-left: 72px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+.hr2
+{
+    border-left: 2px black solid;
+    height: 60px;
+    margin-left: 72px;
+    position: absolute;
+    margin-top: 240px;
+}
+
+
+
+#con6,#partyTimeButton
+{
+    width: 200px;
+    height:50px; 
+    border:5px rgb(187, 159, 159) none;
+    border-radius: 5px;
+    background: linear-gradient(to right,#cb52f8 20%,#FC5EFF,#F1A7C5);
+    grid-row: 3/6;
+}
+H4{
+    color:white;
+    text-align: center;
+}
+h1{
+    color:rgb(83, 12, 12);
+    text-align: center;
+    margin-top: auto;
+}
+#dynamic-block
+{
+    width: 510px;
+    height:30px; 
+    border:5px rgba(88, 7, 11, 0.87) none;
+    border-radius: 5px;
+    background-color:white;
+    color: rgb(83, 12, 12);;
+    margin-left: -5%;
+    font-size: large;
+   
+
+}
+#dynamic-block1
+{
+    width: 510px;
+    height:30px; 
+    border:5px rgba(88, 7, 11, 0.87) none;
+    border-radius: 5px;
+    background-color:white;
+    color: rgb(83, 12, 12);;
+    margin-left: -5%;
+    margin-top: -10%;
+    font-size: large;
+   
+
+}
+#dynamic-block2
+{
+    width: 510px;
+    height:30px; 
+    border:5px rgba(243, 242, 242, 0.87) none;
+    border-radius: 5px;
+    background-color:white;
+    color: rgb(57, 12, 83);;
+    margin-left: -5%;
+    font-size: large;
+    margin-top: -10%;
+
+}
+/* // function Makediv(){
+    //     var container=document.createElement('div');
+    //     container.className="con3";
+    //     container.id="dynamic-block";
+    
+    //     document.getElementById('').appendChild(container);
+    
+    //     var invalue=document.getElementById('wakeUpTimeSelector');
+    //     var value=invalue.option[invalue.selectIndex].text;
+    //     document.getElementById("dynamic-block").innerHTML="wake up time"+value;
+        
+        
+    // }
+    
+    // function Makediv() {
+    //     selectElement = document.querySelector('#wakeUpTimeSelector');
+    //     output = selectElement.value;
+    //     document.querySelector('.output').textContent = output;
+    
+    //     selectElement = document.querySelector('#lunchTimeSelector');
+    //     output = selectElement.value;
+    //     document.querySelector('.output1').textContent = output;
+    
+    //     selectElement = document.querySelector('#napTimeSelector');
+    //     output = selectElement.value;
+    //     document.querySelector('.output2').textContent = output;
+    // }  */
